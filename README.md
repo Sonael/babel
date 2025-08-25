@@ -4,7 +4,7 @@
 
 Este projeto é uma **Prova de Conceito (PoC)** que explora uma abordagem inovadora de **comando e controle (C2)** utilizando a **esteganografia de código**. A técnica consiste em ocultar um *payload* malicioso em uma plataforma online aparentemente inofensiva: a Biblioteca de Babel.
 
-O objetivo é demonstrar como uma string de código malicioso pode ser codificada, armazenada remotamente de forma discreta e, em seguida, recuperada e executada por uma aplicação cliente. Este método ilustra um vetor de ataque avançado, onde a *payload* não reside no sistema local e é difícil de ser detectada por soluções de segurança tradicionais.
+O objetivo é demonstrar como uma string de código malicioso pode ser codificada, armazenada remotamente de forma discreta e, em seguida, recuperada e executada por uma aplicação cliente. Este método ilustra um vetor de ataque, onde a *payload* não reside no sistema local.
 
 ## Como Funciona
 
@@ -30,8 +30,8 @@ Para rodar esta PoC, você precisará ter o Python 3 instalado e as bibliotecas 
 1.  **Clone o repositório:**
 
     ```bash
-    git clone https://github.com/seu-usuario/seu-repositorio.git
-    cd seu-repositorio
+    git clone https://github.com/Sonael/babel.git
+    cd babel
     ```
 
 2.  **Crie e ative um ambiente virtual (recomendado):**
